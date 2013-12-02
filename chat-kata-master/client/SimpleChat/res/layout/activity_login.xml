@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:id="@+id/FrameLayout1"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:layout_gravity="center_vertical|center_horizontal|center"
+             tools:context=".Login" android:clickable="false" android:background="@drawable/dark_background">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:orientation="vertical" >
+
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal|center" android:padding="10dp">
+
+            <EditText
+                    android:id="@+id/editUsuario"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" android:maxLength="16"
+                    android:hint="User" android:gravity="center"
+                    android:background="@drawable/grey_rectangular_background">
+
+
+            </EditText>
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal|center" android:padding="10dp">
+
+            <EditText
+                    android:id="@+id/editPwd"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" android:maxLength="16"
+                    android:hint="Pass" android:gravity="center"
+                    android:background="@drawable/grey_rectangular_background">
+
+
+            </EditText>
+
+        </LinearLayout>
+
+        <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal|center" android:padding="10dp"
+                android:gravity="center"/>
+
+        <Button
+                android:id="@+id/login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal|center"
+                android:text="Log In" android:padding="10dp"
+                android:background="@drawable/aqua_back"/>
+
+    </LinearLayout>
+
+</FrameLayout>
