@@ -27,21 +27,29 @@ public class LoginActivityTest {
 
     @Test
     public void hasACharacterA() throws Exception{
-        boolean res = new LoginActivity().hayCaracter(" ");
+        boolean res = new LoginActivity().someCharacter(" ");
         assertFalse(res);
     }
 
     @Test
     public void hasACharacterB() throws Exception{
-        boolean res = new LoginActivity().hayCaracter(" asdf");
+        boolean res = new LoginActivity().someCharacter(" asdf");
         assertFalse(false);
     }
 
     @Test
     public void hasACharacterC() throws Exception{
-        boolean res = new LoginActivity().hayCaracter(" \n \t");
+        boolean res = new LoginActivity().someCharacter(" \n \t");
         assertFalse(res);
     }
+
+    @Test
+    public void signUpCorrectA() throws Exception{
+        boolean res = new LoginActivity().checkPass(" ", " ");
+        assertFalse(res);
+
+    }
+
 
 
 

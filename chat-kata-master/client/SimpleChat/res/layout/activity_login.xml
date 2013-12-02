@@ -43,7 +43,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1" android:maxLength="16"
                     android:hint="Pass" android:gravity="center"
-                    android:background="@drawable/grey_rectangular_background">
+                    android:background="@drawable/grey_rectangular_background" android:password="true">
 
 
             </EditText>
