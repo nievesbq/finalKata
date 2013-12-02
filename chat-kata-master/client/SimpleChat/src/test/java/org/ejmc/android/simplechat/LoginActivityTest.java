@@ -17,7 +17,7 @@ import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertThat;
 
 @RunWith(RobolectricTestRunner.class)
-public class ChatActivityTest {
+public class LoginActivityTest {
 
     @Test
     public void shouldHaveProperAppName() throws Exception{
@@ -36,4 +36,13 @@ public class ChatActivityTest {
         boolean res = new LoginActivity().hayCaracter(" asdf");
         assertFalse(false);
     }
+
+    @Test
+    public void hasACharacterC() throws Exception{
+        boolean res = new LoginActivity().hayCaracter(" \n \t");
+        assertFalse(res);
+    }
+
+
+
 }

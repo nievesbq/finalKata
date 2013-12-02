@@ -30,10 +30,12 @@
     <list default="true" id="3d69292a-a284-4dc4-bdba-aca8e7386f44" name="Default" comment="" />
     <ignored path="SimpleChat.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/fragment.java" changelist="3d69292a-a284-4dc4-bdba-aca8e7386f44" time="1385995610242" ignored="false" />
-    <file path="/ChatActivityTest.java" changelist="3d69292a-a284-4dc4-bdba-aca8e7386f44" time="1385996223771" ignored="false" />
+    <file path="/fragment.java" changelist="3d69292a-a284-4dc4-bdba-aca8e7386f44" time="1386002880019" ignored="false" />
+    <file path="/ChatActivityTest.java" changelist="3d69292a-a284-4dc4-bdba-aca8e7386f44" time="1386002642005" ignored="false" />
     <file path="$PROJECT_DIR$/gen/org/ejmc/android/simplechat/R.java" changelist="3d69292a-a284-4dc4-bdba-aca8e7386f44" time="1385995838487" ignored="false" />
     <file path="/AndroidManifest.xml" changelist="3d69292a-a284-4dc4-bdba-aca8e7386f44" time="1385995836136" ignored="false" />
+    <file path="/LoginActivity.java" changelist="3d69292a-a284-4dc4-bdba-aca8e7386f44" time="1386002818016" ignored="false" />
+    <file path="/LoginActivityTest.java" changelist="3d69292a-a284-4dc4-bdba-aca8e7386f44" time="1386002892840" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,10 +96,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ChatActivity.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ChatActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/ejmc/android/simplechat/ChatActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="229" column="42" selection-start="7231" selection-end="7231" vertical-scroll-proportion="0.5396419">
+            <state line="314" column="27" selection-start="9913" selection-end="9915" vertical-scroll-proportion="-6.28">
               <folding>
                 <element signature="e#2458#2762#0" expanded="true" />
                 <element signature="e#2560#2736#0" expanded="true" />
@@ -121,29 +123,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JSONparser.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/ejmc/android/simplechat/net/JSONparser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="45" selection-start="1660" selection-end="1660" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="LoginActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/ejmc/android/simplechat/LoginActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="28" selection-start="1780" selection-end="1780" vertical-scroll-proportion="0.0">
+            <state line="21" column="18" selection-start="431" selection-end="431" vertical-scroll-proportion="-7.2">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ChatActivityTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/org/ejmc/android/simplechat/ChatActivityTest.java">
+      <file leaf-file-name="LoginActivityTest.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/org/ejmc/android/simplechat/LoginActivityTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="31" selection-start="431" selection-end="431" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="43" column="7" selection-start="1205" selection-end="1205" vertical-scroll-proportion="0.6686747">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -162,15 +157,16 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/org/ejmc/android/simplechat/model/Message.java" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/org/ejmc/android/simplechat/ChatActivity.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/ejmc/android/simplechat/LoginActivity.java" />
         <option value="$PROJECT_DIR$/src/test/java/org/ejmc/android/simplechat/ChatActivityTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/ejmc/android/simplechat/ChatActivity.java" />
+        <option value="$PROJECT_DIR$/src/test/java/org/ejmc/android/simplechat/LoginActivityTest.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="1420" />
-    <option name="y" value="24" />
+    <option name="y" value="1104" />
     <option name="width" value="1866" />
     <option name="height" value="1056" />
   </component>
@@ -233,6 +229,14 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -275,50 +279,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="simplechat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SimpleChat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SimpleChat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simplechat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="net" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SimpleChat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SimpleChat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -358,7 +318,7 @@
       <recent name="$PROJECT_DIR$/res/layout" />
     </key>
   </component>
-  <component name="RunManager" selected="Android Application.SimpleChat">
+  <component name="RunManager" selected="JUnit.ChatActivityTest">
     <configuration default="false" name="ChatActivityTest" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="SimpleChat" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -545,7 +505,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1420" y="24" width="1866" height="1056" extended-state="6" />
+    <frame x="1420" y="1104" width="1866" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.47171825" order="-1" side_tool="false" content_ui="tabs" />
@@ -565,8 +525,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.86232656" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13767342" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5592316" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.44076842" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -708,17 +668,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/ejmc/android/simplechat/ChatActivityTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/ejmc/android/simplechat/net/JSONparser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="31" selection-start="431" selection-end="431" vertical-scroll-proportion="0.0">
+        <state line="59" column="45" selection-start="1660" selection-end="1660" vertical-scroll-proportion="0.8649789">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/ejmc/android/simplechat/LoginActivity.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/ejmc/android/simplechat/ChatActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="28" selection-start="1780" selection-end="1780" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="314" column="27" selection-start="9913" selection-end="9915" vertical-scroll-proportion="-6.28">
+          <folding>
+            <element signature="e#2458#2762#0" expanded="true" />
+            <element signature="e#2560#2736#0" expanded="true" />
+            <element signature="e#2717#2718#0" expanded="true" />
+            <element signature="e#2751#2752#0" expanded="true" />
+            <element signature="e#3805#5797#0" expanded="true" />
+            <element signature="e#5786#5787#0" expanded="true" />
+            <element signature="e#5840#6341#0" expanded="true" />
+            <element signature="e#6330#6331#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -729,25 +698,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/ejmc/android/simplechat/net/JSONparser.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/ejmc/android/simplechat/LoginActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="45" selection-start="1660" selection-end="1660" vertical-scroll-proportion="0.0">
+        <state line="21" column="18" selection-start="431" selection-end="431" vertical-scroll-proportion="-7.2">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/ejmc/android/simplechat/ChatActivity.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/ejmc/android/simplechat/LoginActivityTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="229" column="42" selection-start="7231" selection-end="7231" vertical-scroll-proportion="0.5396419">
+        <state line="43" column="7" selection-start="1205" selection-end="1205" vertical-scroll-proportion="0.6686747">
           <folding>
-            <element signature="e#2458#2762#0" expanded="true" />
-            <element signature="e#2560#2736#0" expanded="true" />
-            <element signature="e#2717#2718#0" expanded="true" />
-            <element signature="e#2751#2752#0" expanded="true" />
-            <element signature="e#3805#5797#0" expanded="true" />
-            <element signature="e#5786#5787#0" expanded="true" />
-            <element signature="e#5840#6341#0" expanded="true" />
-            <element signature="e#6330#6331#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

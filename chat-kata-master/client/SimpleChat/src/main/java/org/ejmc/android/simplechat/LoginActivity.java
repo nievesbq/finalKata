@@ -72,7 +72,7 @@ public class LoginActivity extends Activity {
 
     public boolean hayCaracter( String cadena ){
         for(int i=0; i<cadena.length()-1; i++){
-            if(cadena.charAt(i)!=' ' )//tiene algun caracter distinto de ' '
+            if(cadena.charAt(i)!=' ' && cadena.charAt(i)!='\n' && cadena.charAt(i)!='\t' )//tiene algun caracter distinto de ' '
                 return true;
         }
         return false;

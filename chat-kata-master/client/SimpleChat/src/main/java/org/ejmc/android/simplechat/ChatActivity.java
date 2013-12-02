@@ -248,8 +248,6 @@ public class ChatActivity extends ListActivity {
                 lenght = chatList.size();
 
             }
-
-
         }
     }
 
